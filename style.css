@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #A7C4C2;
+    font-size: 40px;
+}
+
+.container {
+    position: fixed;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 40%;
+    border: 3px solid #307473;
+    border-right: none;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+   
+  }
+  
+  .searchTerm:focus{
+    color: #307473;
+  }
+  
+  .searchBtn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #307473;
+    background: #307473;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 20%;
+    position: absolute;
+    top: 20%;   
+    left: 18%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    
+  }
+
+  
+.indexbox {
+    background-color:#F8F8F8;
+    width: 1400px;
+    padding: auto;
+    border: 1px solid  #ccc;
+    margin: auto;
+    text-align: left;
+    box-sizing: border-box;
+    
+    
+  
+   }
+
+
+.table {
+  width: 100%;
+ top: 30%;
+  margin: auto;
+  height: auto;
+  color: black;
+  
+  
+
+  
+}
+
+.table2 {
+    width: 100%;
+   top: 30%;
+    margin: auto;
+   
+   
+    
+  }
+
+  .table3 {
+    width: 100%;
+   top: 30%;
+    margin: auto;
+    
+   
+    
+  }
+
+.cityinfo {
+    background-color:#e5e5e5;
+    width: 650px;
+    padding: 30px;
+    border: 1px solid  #ccc;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+   
+    
+    }
